@@ -1,0 +1,19 @@
+# testing find and if it works
+> init
+<<<
++ wug.txt wug.txt
++ notwug.txt notwug.txt
++ h.txt notwug.txt
+> add wug.txt
+<<<
+> commit "added wug"
+<<<
+> add notwug.txt
+<<<
+> commit "added notwug"
+<<<
+> add h.txt
+<<<
+> commit "added h"
+<<<
+= wug.txt wug.txt

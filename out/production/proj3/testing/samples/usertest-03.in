@@ -1,0 +1,19 @@
+# testing errors
+> add wig.txt
+Not in an initialized Gitlet directory.
+<<<
+> init
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+> add wig.txt
+File does not exist.
+<<<
+> commit wigga
+No changes added to the commit.
+<<<
+> add j.txt wig.txt wug.txt
+Incorrect operands.
+<<<
+#testing errors.
